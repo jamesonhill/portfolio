@@ -27,7 +27,7 @@
 
     @keyframes type {
       from { width: 0; }
-      to { width: 450px; }
+      to { width: 430px; }
     }
 
     @keyframes cursor-blink {
@@ -44,8 +44,8 @@
       margin-top: 25px;
       border-right: 2px solid black;
       animation: 
-        type 2s ease-in,
-        cursor-blink 1s step-end infinite
+        type 3.5s steps(60, end),
+        cursor-blink .75s step-end infinite
     }
 
     .bio {

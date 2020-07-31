@@ -1,6 +1,7 @@
 import React from 'react';
 import img from './assets/imgs/profile.jpg';
 import './App.scss';
+import './tailwind.output.css';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <span className='item'>Father</span>
           <span className='item'>Software Developer</span>
         </div>
-        <div>Building delightful user experiences since 2016</div>
+        <div>Building delightful user experiences since 2015</div>
       </header>
     </div>
   );
