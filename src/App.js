@@ -6,9 +6,9 @@ import './tailwind.output.css';
 function App() {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className="px-10 font-roboto bg-teal-100" id="home">
+    <div className="px-10 font-roboto text-white" id="home">
       <nav className="flex flex-col sm:flex-row sm-justify-between sm:sticky top-0 pt-8">
-        <a href="/" className="thumbnail hidden sm:inline">
+        <a href="#home" className="thumbnail hidden sm:inline">
           <img className="rounded-full h-10 w-10" src={img} alt="profile-pic" />
         </a>
         <button
@@ -26,7 +26,7 @@ function App() {
               x2="40"
               y1="10"
               y2="10"
-              stroke="black"
+              stroke="white"
               strokeWidth="3"
             />
             <line
@@ -34,7 +34,7 @@ function App() {
               x2="40"
               y1="20"
               y2="20"
-              stroke="black"
+              stroke="white"
               strokeWidth="3"
             />
             <line
@@ -42,7 +42,7 @@ function App() {
               x2="40"
               y1="30"
               y2="30"
-              stroke="black"
+              stroke="white"
               strokeWidth="3"
             />
           </svg>
@@ -53,7 +53,7 @@ function App() {
           >
             <path
               d="M 10,10 L 30,30 M 30,10 L 10,30"
-              stroke="black"
+              stroke="white"
               strokeWidth="3"
               strokeLinecap="round"
             />
@@ -62,7 +62,7 @@ function App() {
         <div
           className={`${
             showMenu ? 'flex' : 'hidden'
-          } flex-col items-start rounded-md text-white max-w-xs sm:max-w-none sm:text-black bg-blue-600 px-2 sm:px-0 sm:flex sm:flex-row sm:flex-1 sm:justify-end sm:items-center sm:bg-transparent`}
+          } flex-col items-start rounded-md text-white max-w-xs sm:max-w-none bg-blue-600 px-2 sm:px-0 sm:flex sm:flex-row sm:flex-1 sm:justify-end sm:items-center sm:bg-transparent`}
         >
           <a
             href="#work"
@@ -90,14 +90,14 @@ function App() {
       <div className="h-64 mb-64" />
       <div className="h-64 mb-64" />
       <div className="h-64 mb-64" />
-      <section id="work" className="h-64 mb-64">
-        My work
+      <section id="work" className="h-64 mb-32 pt-32">
+        <h2 className='text-2xl'>My Work</h2>
       </section>
       <section id="interests" className="h-64 mb-64">
-        Interests
+      <h2 className='text-2xl'>Interests</h2>
       </section>
       <section id="contact" className="h-64">
-        Contact
+        <h2 className='text-2xl'>Let's get in touch!</h2>
       </section>
     </div>
   );
