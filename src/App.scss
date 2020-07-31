@@ -1,1 +1,5 @@
 @import-normalize;
+
+.thumbnail:hover {
+  filter: drop-shadow(1px 2px 3px #2b6bb0);
+}
