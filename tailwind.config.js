@@ -7,7 +7,10 @@ module.exports = {
     'public/**/*.html'
   ],
   theme: {
-    extend: {}
+    extend: {},
+    fontFamily: {
+      'roboto': 'Roboto'
+    }
   },
   variants: {},
   plugins: []
