@@ -6,7 +6,7 @@ import './tailwind.output.css';
 function App() {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className="px-10 font-roboto" id="home">
+    <div className="px-10 font-roboto bg-teal-100" id="home">
       <nav className="flex flex-col sm:flex-row sm-justify-between sm:sticky top-0 pt-8">
         <a href="/" className="thumbnail hidden sm:inline">
           <img className="rounded-full h-10 w-10" src={img} alt="profile-pic" />
@@ -62,7 +62,7 @@ function App() {
         <div
           className={`${
             showMenu ? 'flex' : 'hidden'
-          } flex-col items-start rounded-md text-white max-w-xs sm:max-w-none sm:text-black bg-blue-700 px-2 sm:px-0 sm:flex sm:flex-row sm:flex-1 sm:justify-end sm:items-center sm:bg-transparent`}
+          } flex-col items-start rounded-md text-white max-w-xs sm:max-w-none sm:text-black bg-blue-600 px-2 sm:px-0 sm:flex sm:flex-row sm:flex-1 sm:justify-end sm:items-center sm:bg-transparent`}
         >
           <a
             href="#work"
@@ -96,7 +96,7 @@ function App() {
       <section id="interests" className="h-64 mb-64">
         Interests
       </section>
-      <section id="contact" className="h-64 mb-64">
+      <section id="contact" className="h-64">
         Contact
       </section>
     </div>
