@@ -9,7 +9,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'roboto': 'Roboto'
+      'roboto': 'Roboto',
+      'nosifer': 'Nosifer'
     }
   },
   variants: {},

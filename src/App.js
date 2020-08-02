@@ -6,7 +6,7 @@ import './tailwind.output.css';
 function App() {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className="px-10 font-roboto text-white" id="home">
+    <div className="px-10 font-roboto" id="home">
       <nav className="flex flex-col sm:flex-row sm-justify-between sm:sticky top-0 pt-8">
         <a href="#home" className="thumbnail hidden sm:inline">
           <img className="rounded-full h-10 w-10" src={img} alt="profile-pic" />
@@ -62,29 +62,33 @@ function App() {
         <div
           className={`${
             showMenu ? 'flex' : 'hidden'
-          } flex-col items-start rounded-md text-white max-w-xs sm:max-w-none bg-blue-600 px-2 sm:px-0 sm:flex sm:flex-row sm:flex-1 sm:justify-end sm:items-center sm:bg-transparent`}
+          } flex-col items-start rounded-md text-white max-w-xs sm:max-w-none bg-silver sm:px-0 sm:flex sm:flex-row sm:flex-1 sm:justify-end sm:items-center sm:bg-transparent`}
         >
           <a
             href="#work"
-            className="py-4 sm:py-0 sm:px-6 hover:text-black sm:hover:text-blue-700"
+            className="py-4 px-2 sm:py-0 sm:px-6 hover:rounded-full nav-item"
           >
             Work
           </a>
           <a
             href="#interests"
-            className="py-4 sm:py-0 sm:px-6 hover:text-black sm:hover:text-blue-700"
+            className="py-4 px-2 sm:py-0 sm:px-6 hover:rounded-full nav-item"
           >
             Interests
           </a>
           <a
             href="#contact"
-            className="py-4 sm:py-0 sm:px-6 hover:text-black sm:hover:text-blue-700"
+            className="py-4 px-2 sm:py-0 sm:px-6 hover:rounded-full nav-item"
           >
             Contact
           </a>
         </div>
       </nav>
-      <div className="h-64 mb-64" />
+      <section className="flex justify-center items-center mt-64">
+          <div className="hover">
+            <div className="font-nosifer" style={{ fontSize: '8rem', color: '#32cd32' }}>JH</div>
+          </div>
+      </section>
       <div className="h-64 mb-64" />
       <div className="h-64 mb-64" />
       <div className="h-64 mb-64" />
