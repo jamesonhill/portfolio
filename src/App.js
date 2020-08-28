@@ -85,9 +85,14 @@ function App() {
         </div>
       </nav>
       <section className="flex justify-center items-center mt-64">
-          <div className="hover">
-            <div className="font-nosifer" style={{ fontSize: '8rem', color: '#32cd32' }}>JH</div>
+        <div className="hover">
+          <div
+            className="font-nosifer"
+            style={{ fontSize: '8rem', color: '#32cd32' }}
+          >
+            JH
           </div>
+        </div>
       </section>
       <div className="h-64 mb-64" />
       <div className="h-64 mb-64" />
@@ -95,13 +100,13 @@ function App() {
       <div className="h-64 mb-64" />
       <div className="h-64 mb-64" />
       <section id="work" className="h-64 mb-32 pt-32">
-        <h2 className='text-2xl'>My Work</h2>
+        <h2 className="text-2xl">My Work</h2>
       </section>
       <section id="interests" className="h-64 mb-64">
-      <h2 className='text-2xl'>Interests</h2>
+        <h2 className="text-2xl">Interests</h2>
       </section>
       <section id="contact" className="h-64">
-        <h2 className='text-2xl'>Let's get in touch!</h2>
+        <h2 className="text-2xl">Let's get in touch!</h2>
       </section>
     </div>
   );

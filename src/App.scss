@@ -24,7 +24,7 @@
     color: #32cd32;
   }
 
-  @media (max-width: 640px){
+  @media (max-width: 640px) {
     width: 100%;
     &:hover {
       color: #222;
@@ -34,20 +34,42 @@
 }
 
 @keyframes hover {
-  0% { transform: translateY(0) }
-  10% { transform: translateY(2px) }
-  20% { transform: translateY(4px) }
-  30% { transform: translateY(6px) }
-  40% { transform: translateY(8px) }
-  50% { transform: translateY(10px) }
-  60% { transform: translateY(8px) }
-  70% { transform: translateY(6px) }
-  80% { transform: translateY(4px) }
-  90% { transform: translateY(2px) }
-  100% { transform: translateY(0) }
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(2px);
+  }
+  20% {
+    transform: translateY(4px);
+  }
+  30% {
+    transform: translateY(6px);
+  }
+  40% {
+    transform: translateY(8px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  60% {
+    transform: translateY(8px);
+  }
+  70% {
+    transform: translateY(6px);
+  }
+  80% {
+    transform: translateY(4px);
+  }
+  90% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
-@media(prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: reduce) {
   * {
     animation: none;
   }
