@@ -7,7 +7,7 @@ function App() {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="px-10 font-roboto" id="home">
-      <nav className="flex flex-col sm:flex-row sm-justify-between sm:sticky top-0 pt-8">
+      <nav className="fixed w-64 z-10 sm:w-auto sm:flex-row sm-justify-between sm:sticky top-0 pt-8">
         <a href="#home" className="thumbnail hidden sm:inline">
           <img className="rounded-full h-10 w-10" src={img} alt="profile-pic" />
         </a>
@@ -84,11 +84,11 @@ function App() {
           </a>
         </div>
       </nav>
-      <section className="flex justify-center items-center mt-64">
+      <section className="flex justify-center items-center pt-32">
         <div className="hover">
           <div
             className="font-nosifer"
-            style={{ fontSize: '8rem', color: '#32cd32' }}
+            style={{ fontSize: '9rem', color: '#32cd32' }}
           >
             JH
           </div>
