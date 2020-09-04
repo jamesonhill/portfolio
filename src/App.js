@@ -95,19 +95,31 @@ function App() {
         </div>
       </section>
       <div className="h-64 mb-64" />
-      <div className="h-64 mb-64" />
-      <div className="h-64 mb-64" />
-      <div className="h-64 mb-64" />
-      <div className="h-64 mb-64" />
       <section id="work" className="h-64 mb-32 pt-32">
-        <h2 className="text-2xl">My Work</h2>
+        <h2 className="text-2xl text-white">My Work</h2>
+        {/**
+         * open source
+         * saas
+         * pet projects
+         */}
       </section>
       <section id="interests" className="h-64 mb-64">
-        <h2 className="text-2xl">Interests</h2>
+        <h2 className="text-2xl text-white">Interests</h2>
       </section>
       <section id="contact" className="h-64">
-        <h2 className="text-2xl">Let's get in touch!</h2>
+        <h2 className="text-2xl text-white">Want to collaborate? Let's get in touch!</h2>
+        {/**
+         * contact info
+         * message
+         */}
       </section>
+      <footer>
+        {/**
+         * github
+         * email
+         * ???
+         */}
+      </footer>
     </div>
   );
 }
