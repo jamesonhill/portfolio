@@ -107,7 +107,9 @@ function App() {
         <h2 className="text-2xl text-white">Interests</h2>
       </section>
       <section id="contact" className="h-64">
-        <h2 className="text-2xl text-white">Want to collaborate? Let's get in touch!</h2>
+        <h2 className="text-2xl text-white">
+          Want to collaborate? Let's get in touch!
+        </h2>
         {/**
          * contact info
          * message
